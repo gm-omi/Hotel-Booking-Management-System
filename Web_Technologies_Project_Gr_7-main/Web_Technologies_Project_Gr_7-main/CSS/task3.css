@@ -1,0 +1,262 @@
+body
+{
+    background: #f5f6fa;
+}
+
+
+
+.page-title
+{
+    margin-bottom: 25px;
+
+    font-size: 34px;
+}
+
+
+
+.form-container
+{
+    background: white;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    border: 1px solid #ddd;
+
+    margin-bottom: 25px;
+}
+
+
+
+.form-input
+{
+    width: 220px;
+
+    padding: 10px;
+
+    border-radius: 6px;
+
+    border: 1px solid #ccc;
+
+    margin-right: 10px;
+
+    margin-bottom: 10px;
+}
+
+
+
+.simple-btn
+{
+    background: #0071c2;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 18px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+}
+
+
+
+.simple-btn:hover
+{
+    background: #005999;
+}
+
+
+
+.error-text
+{
+    color: red;
+
+    margin-bottom: 15px;
+
+    font-weight: bold;
+}
+
+
+
+.room-card
+{
+    display: flex;
+
+    gap: 20px;
+
+    background: white;
+
+    border: 1px solid #ddd;
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    margin-bottom: 20px;
+
+    align-items: flex-start;
+}
+
+
+
+.room-image img
+{
+    width: 220px;
+
+    height: 160px;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+}
+
+
+
+.room-info
+{
+    flex: 1;
+}
+
+
+
+.room-info h2
+{
+    margin-top: 0;
+
+    margin-bottom: 12px;
+
+    font-size: 28px;
+}
+
+
+
+.room-side
+{
+    text-align: right;
+
+    min-width: 180px;
+}
+
+
+
+.room-price
+{
+    font-size: 28px;
+
+    font-weight: bold;
+
+    color: green;
+
+    margin-bottom: 15px;
+}
+
+
+
+.simple-table
+{
+    width: 100%;
+
+    border-collapse: collapse;
+
+    background: white;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    border: 1px solid #ddd;
+}
+
+
+
+.simple-table th
+{
+    background: #2d3436;
+
+    color: white;
+
+    padding: 14px;
+
+    text-align: left;
+}
+
+
+
+.simple-table td
+{
+    padding: 14px;
+
+    border-bottom: 1px solid #eee;
+}
+
+
+
+.simple-table tr:hover
+{
+    background: #f8f8f8;
+}
+
+
+
+.status-pending
+{
+    color: orange;
+
+    font-weight: bold;
+}
+
+
+
+.status-confirmed
+{
+    color: green;
+
+    font-weight: bold;
+}
+
+
+
+.status-cancelled
+{
+    color: red;
+
+    font-weight: bold;
+}
+
+
+
+.status-checked
+{
+    color: #0071c2;
+
+    font-weight: bold;
+}
+
+
+
+.success-box
+{
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    border: 1px solid #ddd;
+
+    max-width: 500px;
+}
+
+
+
+.success-box h2
+{
+    color: green;
+
+    margin-top: 0;
+}
